@@ -1,0 +1,31 @@
+.main {
+  background-color: #f7d105;
+  width: 90%;
+  height: 30vh;
+  margin: 5vw;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  font-weight: bolder;
+  font-size: 53px;
+  letter-spacing: -5px;
+  word-spacing: 10px;
+}
+
+.container h4 {
+  font-size: 16px;
+  text-align: center;
+}

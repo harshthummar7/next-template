@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.second p {
+  font-size: 8rem;
+  font-weight: bolder;
+  letter-spacing: -12px;
+  word-spacing: 13px;
+}

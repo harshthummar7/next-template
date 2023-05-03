@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  padding: 3vw;
+}
+
+.first {
+  width: 50%;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+}
+
+.second p {
+  font-size: 5rem;
+  width: 70%;
+  font-weight: bolder;
+  letter-spacing: -4px;
+  word-spacing: 5px;
+}

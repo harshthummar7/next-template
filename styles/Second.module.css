@@ -1,0 +1,38 @@
+.container {
+  padding-top: 3vw;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  height: 16vh;
+}
+.second {
+  text-align: center;
+}
+
+.second p {
+  word-spacing: 18px;
+  font-size: 8rem;
+  font-weight: bolder;
+  letter-spacing: -9px;
+}
+.left p {
+  font-size: 8rem;
+  font-weight: bolder;
+  letter-spacing: -8px;
+}
+.center img {
+  height: 22vh;
+}
+.right p {
+  font-size: 8rem;
+  font-weight: bolder;
+  letter-spacing: -9px;
+}
+
+.third {
+  text-align: center;
+}
+
+.third p {
+}
