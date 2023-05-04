@@ -9,6 +9,10 @@
   width: 50%;
 }
 
+.first img {
+  width: 37vw;
+  margin-top: 2vh;
+}
 .second {
   display: flex;
   justify-content: center;

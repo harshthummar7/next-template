@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 9vw;
+}
+
+.icon {
+  width: 4vw;
+  height: 5.9vh;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e2e2;
+}

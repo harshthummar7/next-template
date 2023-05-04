@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 33vw;
+  height: 5vh;
+  background-color: #ffffff;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border: 1px solid;
+  border-bottom: none;
+}
+
+.button button {
+  width: 11vw;
+  margin: 11px;
+  padding: 9px;
+  background-color: #f7d105;
+  border-radius: 6rem;
+  text-align: center;
+  font-size: small;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+}
+
+.container p {
+  display: contents;
+}

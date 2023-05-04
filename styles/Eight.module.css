@@ -2,11 +2,16 @@
   display: flex;
   flex-direction: row;
   padding: 3vw;
-  margin-bottom: 10vh;
 }
 
 .first {
   width: 50%;
+}
+
+.first img {
+  width: 37vw;
+  margin-top: 7vh;
+  margin-left: -4vw;
 }
 
 .second {

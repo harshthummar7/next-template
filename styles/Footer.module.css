@@ -1,0 +1,173 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.first {
+  width: 100%;
+  border-bottom: 1px solid;
+  height: 25vh;
+}
+
+.f1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.f11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.f11 h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.f11 p {
+  font-size: 5rem;
+  font-weight: bolder;
+  letter-spacing: -4px;
+  word-spacing: 5px;
+}
+
+.f12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button button {
+  width: 15vw;
+  margin: 11px;
+  padding: 9px;
+  background-color: #f7d105;
+  border-radius: 6rem;
+  text-align: center;
+  font-size: small;
+  display: flex;
+  justify-content: space-around;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  width: 100%;
+  margin-top: 8vh;
+  justify-content: center;
+  border-bottom: 1px solid;
+  height: 60vh;
+  color: #f9f5f5b5;
+}
+.s1 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.s2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.s21 {
+  display: flex;
+  flex-direction: row;
+}
+
+.s22 {
+  margin-top: 9vh;
+}
+
+.s23 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+.s23 div {
+  margin-right: 3vw;
+}
+
+.s211 p,
+.s212 p,
+.s213 p,
+.s22 p {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.s211,
+.s212,
+.s213 {
+  margin-right: 6vw;
+}
+
+.s1 p {
+  font-size: 26px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.s1 h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.s1 h3 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.a {
+  margin-top: 2vh;
+}
+
+.b h4,
+.c h4,
+.d h4,
+.s23 h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.b,
+.c,
+.d {
+  margin-top: 3vh;
+}
+
+.third {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6vh;
+  height: 15vh;
+  color: #f9f5f5b5;
+}
+
+.th2 {
+  width: 3vw;
+  height: 4.3vh;
+  text-align: c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5rem;
+}
+
+.th2 i {
+  color: white;
+}
