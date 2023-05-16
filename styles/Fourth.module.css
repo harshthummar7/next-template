@@ -12,3 +12,10 @@
   letter-spacing: -12px;
   word-spacing: 13px;
 }
+
+@media only screen and (max-width: 320px) {
+  .second p {
+    font-size: 3rem;
+    letter-spacing: -3px;
+  }
+}

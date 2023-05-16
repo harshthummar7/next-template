@@ -34,5 +34,46 @@
   text-align: center;
 }
 
-.third p {
+@media only screen and (max-width: 320px) {
+  .container {
+    padding-top: 20vw;
+  }
+
+  .first,
+  .second {
+    display: none;
+  }
+  .two {
+    clear: left;
+  }
+  .mob img {
+    float: left;
+    height: 20vh;
+    width: 82vw;
+  }
+
+  .mob p {
+    word-spacing: 18px;
+    font-size: 8rem;
+    font-weight: bolder;
+    letter-spacing: -9px;
+    line-height: 1;
+  }
+
+  .mob {
+    text-align: center;
+  }
+
+  .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  .mob {
+    display: none;
+  }
 }

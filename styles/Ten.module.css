@@ -9,8 +9,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 33vw;
-  height: 5vh;
+  min-width: 33vw;
+  min-height: 5vh;
   background-color: #ffffff;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -19,7 +19,7 @@
 }
 
 .button button {
-  width: 11vw;
+  min-width: 11vw;
   margin: 11px;
   padding: 9px;
   background-color: #f7d105;
@@ -35,4 +35,11 @@
 
 .container p {
   display: contents;
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    min-height: 8vh;
+    padding: 8px;
+  }
 }

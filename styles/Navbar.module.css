@@ -17,24 +17,27 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 7vw;
+  width: 7%;
+  min-width: 7vw;
 }
 
 .second {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 14vw;
+  width: 10%;
+  min-width: 16vw;
 }
 
 .chat_now {
-  width: 6.5vw;
   font-family: Tahoma, Verdana, sans-serif;
   font-size: 15px;
+  display: flex;
+  flex-direction: row;
 }
 
 .chat_now i {
-  float: right;
+  margin-left: 15px;
 }
 
 .button button {
@@ -47,4 +50,25 @@
 .name {
   font-style: italic;
   font-weight: 600;
+  margin-left: 18px;
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    height: 8vh;
+  }
+
+  .button {
+    display: none;
+  }
+  .first {
+    width: 16%;
+  }
+  .second {
+    width: 20%;
+    background-color: #e3e2e2;
+    border-radius: 1rem;
+    height: 4vh;
+    padding: 6px;
+  }
 }

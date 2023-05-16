@@ -10,7 +10,7 @@ export default function Navbar() {
           <div className="hamburger">
             <i className="bi bi-menu-down"></i>
           </div>
-          <div className={style.name}>paddle</div>
+          <div className={style.name}>peddle</div>
         </div>
         <div className={style.second}>
           <div className={style.chat_now}>

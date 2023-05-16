@@ -7,31 +7,34 @@ import Fourth from "@/component/Fourth";
 import Fifth from "@/component/Fifth";
 import Box from "@/component/Box";
 import Six from "@/component/Six";
-import Seven from "@/component/Seven";
-import Eight from "@/component/Eight";
 import Nine from "@/component/Nine";
 import Ten from "@/component/Ten";
 import Eleven from "@/component/Eleven";
 import Icon from "@/component/Icon";
 import Footer from "@/component/Footer";
+import { data, dataSix } from "../utils/constants";
+import style from "../styles/Index.module.css";
 
 export default function Home() {
   return (
-    <>
+    <div className={style.root}>
       <Navbar></Navbar>
       <Second></Second>
       <Button></Button>
       <Third></Third>
       <Fourth></Fourth>
-      <Fifth></Fifth>
+      <Fifth data={data}></Fifth>
       <Box></Box>
-      <Six></Six>
-      <Seven></Seven>
-      <Eight></Eight>
+      {dataSix.map((data) => {
+        return <Six data={data}></Six>;
+      })}
+
+      {/* <Seven></Seven>
+      <Eight></Eight> */}
       <Nine></Nine>
       <Ten></Ten>
       <Eleven></Eleven>
       <Footer></Footer>
-    </>
+    </div>
   );
 }

@@ -18,6 +18,12 @@ export default function Second() {
       <div className={style.second}>
         <p>CARS TOGETHER</p>
       </div>
+      <div className={style.mob}>
+        <img src="doller.jpeg" alt="Your image" />
+        <p className={style.one}>LET'S</p>
+        <p className={style.two}>BUY CARS </p>
+        <p className={style.two}>TOGETHER</p>
+      </div>
       <div className={style.third}>
         <p>
           We're the simple,modern,awesome way for people to sell and buy end-of-

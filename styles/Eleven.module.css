@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 52vh;
+  min-height: 52vh;
 }
 
 .second h4 {
@@ -74,4 +74,40 @@
   letter-spacing: -7px;
   word-spacing: 4px;
   width: 41vw;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .first p {
+    font-size: 4rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .first {
+    width: 100%;
+  }
+
+  .first h4 {
+    display: none;
+  }
+
+  .second {
+    width: 80%;
+  }
+
+  .s12 {
+    width: 50%;
+    margin-left: 3vw;
+  }
+
+  .s1 {
+    justify-content: center;
+  }
 }

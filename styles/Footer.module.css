@@ -74,11 +74,13 @@
   width: 35%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .s2 {
   width: 50%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .s21 {
@@ -111,6 +113,9 @@
 .s212,
 .s213 {
   margin-right: 6vw;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
 .s1 p {
@@ -170,4 +175,88 @@
 
 .th2 i {
   color: white;
+}
+
+.th1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 320px) {
+  .f1 {
+    flex-direction: column;
+  }
+
+  .f11 {
+    align-items: center;
+  }
+
+  .button button {
+    min-width: 150vw;
+    font-size: 24px;
+    min-height: 7vh;
+  }
+
+  .first {
+    min-height: 30vh;
+  }
+
+  .second {
+    height: 100%;
+    flex-direction: column-reverse;
+    border-bottom: none;
+  }
+
+  .s1 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15vw;
+  }
+
+  .s2 {
+    width: 100%;
+    padding-left: 30vw;
+    border-bottom: 1px dashed;
+  }
+
+  .s21 {
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 56vh;
+  }
+
+  .s211,
+  .s212,
+  .s213 {
+    margin-right: 55vw;
+  }
+
+  .s23 {
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 56vh;
+  }
+  .s23 div {
+    margin-right: 44vw;
+  }
+
+  .a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .th2 {
+    display: none;
+  }
+
+  .th1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
 }

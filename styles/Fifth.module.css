@@ -11,19 +11,8 @@
   height: 20vh;
 }
 
-.second img {
-  width: 10vw;
-  height: 20vh;
-}
-
-.third img {
-  width: 10vw;
-  height: 20vh;
-}
-.first,
-.second,
-.third {
-  width: 24vw;
+.first {
+  min-width: 24vw;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -31,17 +20,27 @@
   align-items: center;
 }
 
-.first,
-.second,
-.third p {
+.first p {
   font-weight: bolder;
   font-size: 2rem;
+  text-align: center;
+  line-height: 1;
 }
 
-.first h4,
-.second h4,
-.third h4 {
+.first h4 {
   overflow-wrap: break-word;
   font-size: 16px;
   text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+  .main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .first img {
+    width: 55vw;
+    height: 25vh;
+  }
 }
